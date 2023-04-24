@@ -1,0 +1,419 @@
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    color: #243453;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    word-wrap: break-word
+}
+
+p {
+    font-size: 18px;
+}
+
+.inner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header_inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.logo p {
+    margin: 0;
+}
+
+.header_info {
+    display: flex;
+}
+
+.info_block {
+    margin-right: 50px;
+}
+
+.navigation_list--mobile {
+    display: none;
+}
+
+.navigation_list--mobile .btn {
+    width: 100%;
+    border-radius: 10px;
+    background: red;
+    border: 0;
+}
+
+.navigation_list--mobile nav p {
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid red;
+}
+
+.navigation_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigation_list nav {
+    display: flex;
+    font-weight: 700;
+
+}
+
+.navigation_list a {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #243453;
+}
+
+a:hover {
+    color: #243453;
+}
+
+hr {
+    border: 2px solid rgb(255, 0, 0);
+    border-bottom-width: 0;
+}
+
+.home_inner img {
+    height: 500px;
+    float: right;
+    object-fit: cover;
+}
+
+.home_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.home_inner h1 {
+    font-size: 45px;
+}
+
+.sign_up_btn a {
+    color: #ffff;
+}
+
+.sign_up_btn {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+.features_blocks {
+    display: flex;
+
+    flex-wrap: wrap;
+    color: #ffff
+}
+
+
+.feature {
+    width: 25%;
+    padding: 30px 30px 25px 30px;
+    text-align: center;
+    border-bottom:#ffff solid 0.5px
+}
+
+.feature_block1 {
+    background-color: #ed1b24;
+}
+
+.feature_block2 {
+    background-color: #ff173e;
+}
+
+.feature_block3 {
+    background-color: #cc003f;
+}
+
+.feature_block4 {
+    background-color: #a41b24;
+}
+
+.features--mobile {
+    display: none;
+}
+
+.service_inner {
+    display: flex;
+}
+
+.title_section {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.collapse_services {
+    border-right: 3px solid #ed1b24;
+    padding-right: 50px;
+    max-width: 40%;
+}
+
+.title_service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 10px;
+    padding: 17px 18px;
+    background-color: #ed1b24;
+    border-radius: 30px;
+
+}
+
+.title_service {
+    color: #ffff;
+    cursor: pointer;
+}
+
+.title_service h5 {
+    max-width: 75%;
+}
+
+.title_service img {
+    margin-left: 15px;
+    padding: 10px 13px;
+    border-radius: 30px;
+    background-color: #ffff
+}
+
+.services {
+    padding: 60px 0;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+.descr_services {
+    margin-left: 30px;
+    max-width: 50%;
+    transition: 1s;
+}
+
+.descr_service img {
+    max-width: 500px;
+    object-fit: cover;
+}
+
+.cards_staffers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card_staff {
+    width: 25%;
+    -webkit-box-shadow: 0px 5px 29px 7px rgba(176, 10, 10, 0.2);
+    -moz-box-shadow: 0px 5px 29px 7px rgba(176, 10, 10, 0.2);
+    box-shadow: 0px 5px 29px 7px rgba(176, 10, 10, 0.2);
+    background-color: #ed1b24;
+    border-radius: 30px;
+    padding: 60px 20px;
+    color: #ffff;
+    margin: 2vh 3vw;
+}
+
+.card_staff h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card_staff img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 140px;
+    border-radius: 50%;
+}
+
+.card_staff p {
+    margin: 0;
+}
+
+footer {
+    padding: 30px 0;
+    background-color: #ff173e;
+    color: #fff
+}
+
+.footer_inner {
+    padding: 70px 0 30px;
+}
+
+.add_info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.staffers {
+    margin-bottom: 100px;
+}
+
+
+form {
+    -webkit-box-shadow: 0px 5px 29px 7px rgba(176, 10, 10, 0.2);
+    -moz-box-shadow: 0px 5px 29px 7px rgba(176, 10, 10, 0.2);
+    box-shadow: 0px 5px 29px 7px rgba(176, 10, 10, 0.2);
+    background-color: #ed1b24;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 50px;
+    width: 50%;
+}
+
+legend, label {
+    color: #ffff;
+
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    display: block;
+    border-radius: 10px;
+    border: 0;
+    min-width: 30%;
+    padding: 10px;
+}
+
+textarea {
+    display: block;
+    min-width: 90%;
+    min-height: 200px;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+}
+
+button h6 {
+
+    color: #fff;
+}
+
+button {
+    border: 2px solid;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: 16px;
+    }
+
+    .inner {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .home_inner img {
+        max-width: 100%;
+    }
+
+    .features {
+        display: none;
+    }
+
+    .features--mobile {
+        display: block;
+    }
+
+    .collapse_services {
+        border: 0;
+        width: 100%;
+    }
+
+    .cards_staffers {
+        display: block;
+    }
+
+    .card_staff {
+        width: 100%;
+        margin: 40px 0;
+    }
+
+    form {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .home_inner img {
+        display: none;
+    }
+
+    .navigation_list {
+        display: none;
+    }
+
+    .header_inner {
+        display: block;
+    }
+
+    .header_inner .logo {
+        text-align: center;
+        margin: 20px 50px;
+    }
+
+    .header_info {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navigation_list--mobile {
+        display: block;
+    }
+
+    .collapse_services{
+        max-width: 100%;
+    }
+    .title_service{
+        width: 100%;
+    }
+    .service_inner {
+        display: block;
+    }
+
+    .descr_services {
+        max-width: 80%;
+    }
+
+    .title_service {
+        padding: 10px 15px;
+    }
+
+    .descr_service img {
+        width: 80%;
+    }
+
+    .add_info iframe {
+        display: none;
+    }
+}
